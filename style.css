@@ -5,6 +5,7 @@
 }
 body, html{
     min-height: 100vh;
+    color: white;
 }
 .container{
 display: flex;
@@ -12,14 +13,39 @@ justify-content: center;
 align-items: center;
 height: 100vh;
 }
+.wrapper{
+    background-color: rgb(39, 37, 37);
+    border-radius: 10px;
+}
+h1,p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+p{
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: large;
+ }
 form {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
-    background-color: red;
+   
+    border-radius: 10px;
   }
- p{
-   margin: 20px 0;
-}
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    font-size: large;
+    font-weight: bold;
+  }
+  fieldset{
+    border: none;
+    padding: 1em;
+  }
+  input{
+    margin: 1em 0;
+  }
