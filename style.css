@@ -3,17 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.main{
+body, html{
     min-height: 100vh;
-    
 }
-.video-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -2;
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    background-color: red;
+  }
+ p{
+   margin: 20px 0;
 }
