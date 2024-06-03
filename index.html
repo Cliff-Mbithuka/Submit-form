@@ -8,6 +8,9 @@
   </head>
   <body>
     <div class="container">
+      <video class="video-container" muted autoplay loop>
+        <source src="video.mp4" type="video/mp4" />
+      </video>
       <div class="wrapper">
         <h1>REGISTRATION FORM</h1>
         <p>Please fill in the Required Spaces</p>
@@ -35,8 +38,25 @@
                 required
             /></label>
           </fieldset>
-          <fieldset></fieldset>
-          <fieldset></fieldset>
+          <fieldset>
+            <label for="profile-picture"
+              >Upload a profile Picture <br /><input
+                type="file"
+                name="file"
+                id="profile-picture"
+            /></label>
+            <label for="bio">
+              <textarea
+                name="bio"
+                id="bio"
+                rows="4"
+                cols="30"
+                placeholder="What do you Love about Internet Programming..."
+              ></textarea>
+            </label>
+          </fieldset>
+
+          <label><input type="submit" value="Submit" /></label>
         </form>
       </div>
     </div>
